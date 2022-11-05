@@ -1,5 +1,26 @@
 .App {
-  text-align: center;
+  display: flex;
+  /* text-align: center; */
+}
+
+.expense{
+  display: flex-wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+}
+
+.repayments{
+  display: flex-wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
 }
 
 .App-logo {
